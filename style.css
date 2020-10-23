@@ -1,0 +1,53 @@
+main{
+  padding: 10px 0;
+}
+
+section{
+  margin-bottom: 100px;
+}
+
+main h2{
+  margin: 12px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+/*group displays moblie first*/
+
+.group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item{
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+@media all and (min-width: 800px){
+  section{
+    padding: 10px 0;
+  }
+
+  .group{
+    flex-direction: row;
+  }
+}
+
+/*contact form sytling*/
+
+form{
+  padding-right: 10px;
+}
+form label{
+  font-weight: bold;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+}
+form textarea{
+  height: 180px;
+}
